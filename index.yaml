@@ -1,33 +1,164 @@
 apiVersion: v1
 entries:
+  eck-agent:
+  - apiVersion: v2
+    created: "2024-08-25T18:38:59.298091097Z"
+    description: Elastic Agent managed by the ECK operator
+    digest: 8d471bdaf99e898615ff4c83352e71f2881ce4a822a6495375c872b7d17b87bc
+    icon: https://images.contentstack.io/v3/assets/bltefdd0b53724fa2ce/blt77c2da6e0198746e/620ac24e6662ca0a6f617114/icon-agent-32-color.svg
+    kubeVersion: '>= 1.21.0-0'
+    name: eck-agent
+    sources:
+    - https://github.com/elastic/cloud-on-k8s
+    - https://github.com/elastic/elastic-agent
+    type: application
+    urls:
+    - https://octodet.github.io/eck-stack-helm/eck-agent-0.12.0.tgz
+    version: 0.12.0
+  eck-apm-server:
+  - apiVersion: v2
+    created: "2024-08-25T18:38:59.298441921Z"
+    description: Elastic APM Server managed by the ECK operator
+    digest: 1ebeae43fb9ba5d345ae2f008c438f835dd91fb119899c024777f7599b2576da
+    icon: https://helm.elastic.co/icons/apm.png
+    kubeVersion: '>= 1.21.0-0'
+    name: eck-apm-server
+    sources:
+    - https://github.com/elastic/cloud-on-k8s
+    - https://github.com/elastic/apm-server
+    type: application
+    urls:
+    - https://octodet.github.io/eck-stack-helm/eck-apm-server-0.12.0.tgz
+    version: 0.12.0
+  eck-beats:
+  - apiVersion: v2
+    created: "2024-08-25T18:38:59.298877335Z"
+    description: Elastic Beats managed by the ECK operator
+    digest: 87624759a3b80d9561611f54ea0c753e3eb41008e83c26350b665cda1bc0e718
+    icon: https://helm.elastic.co/icons/beats.png
+    kubeVersion: '>= 1.20.0-0'
+    name: eck-beats
+    sources:
+    - https://github.com/elastic/cloud-on-k8s
+    - https://github.com/elastic/beats
+    type: application
+    urls:
+    - https://octodet.github.io/eck-stack-helm/eck-beats-0.12.0.tgz
+    version: 0.12.0
   eck-elasticsearch:
   - apiVersion: v2
     appVersion: 6.8.0
-    created: "2024-08-25T18:13:25.040830482Z"
+    created: "2024-08-25T18:38:59.299478372Z"
     description: Elasticsearch managed by the ECK operator
-    digest: 003b2e2047f7676805868af6cc8f26d39e2641aa46be6813649320202ce1ee33
+    digest: a598897d97fc6a965404920522aca0a64176dca0651e63204a642eceb9dadf45
     icon: https://helm.elastic.co/icons/elasticsearch.png
     kubeVersion: '>= 1.21.0-0'
     name: eck-elasticsearch
-    sources:
-    - https://github.com/Octodet/eck-stack-helm
     type: application
     urls:
     - https://octodet.github.io/eck-stack-helm/eck-elasticsearch-0.1.0.tgz
     version: 0.1.0
+  eck-enterprise-search:
+  - apiVersion: v2
+    created: "2024-08-25T18:38:59.299745078Z"
+    description: Elastic Enterprise Search managed by the ECK operator
+    digest: 8ac3a91f8fac0666b781635158959beb4b50d771923c538eaef6bb8176fdfe59
+    icon: https://github.com/elastic/ent-search/blob/main/public/app-search-favicon-196x196.png
+    kubeVersion: '>= 1.21.0-0'
+    name: eck-enterprise-search
+    sources:
+    - https://github.com/elastic/cloud-on-k8s
+    type: application
+    urls:
+    - https://octodet.github.io/eck-stack-helm/eck-enterprise-search-0.12.0.tgz
+    version: 0.12.0
+  eck-fleet-server:
+  - apiVersion: v2
+    created: "2024-08-25T18:38:59.300183436Z"
+    description: Elastic Fleet Server as an Agent managed by the ECK operator
+    digest: 0dcc16426824712acbd3475b7dcfc689a69e6a7e01ad6bd8ff609c69a04891d2
+    kubeVersion: '>= 1.21.0-0'
+    name: eck-fleet-server
+    sources:
+    - https://github.com/elastic/cloud-on-k8s
+    - https://github.com/elastic/elastic-agent
+    - https://github.com/elastic/fleet-server
+    - https://www.elastic.co/guide/en/fleet/current/fleet-overview.html
+    type: application
+    urls:
+    - https://octodet.github.io/eck-stack-helm/eck-fleet-server-0.12.0.tgz
+    version: 0.12.0
   eck-kibana:
   - apiVersion: v2
     appVersion: 6.8.0
-    created: "2024-08-25T18:13:25.041784787Z"
+    created: "2024-08-25T18:38:59.300559278Z"
     description: Kibana managed by the ECK operator
-    digest: d2cce91a1d4aff22423eae350f8480a321c7d501155dba19c87347885c951499
+    digest: faf078f620555de79e9b9056b21f2f4279fa73cde5e93c615c80501b5fb5055d
     icon: https://helm.elastic.co/icons/kibana.png
     kubeVersion: '>= 1.21.0-0'
     name: eck-kibana
-    sources:
-    - https://github.com/Octodet/eck-stack-helm
     type: application
     urls:
     - https://octodet.github.io/eck-stack-helm/eck-kibana-0.1.0.tgz
     version: 0.1.0
-generated: "2024-08-25T18:13:25.036790372Z"
+  eck-logstash:
+  - apiVersion: v2
+    created: "2024-08-25T18:38:59.300917296Z"
+    description: Logstash managed by the ECK operator
+    digest: 97a26719c941c5925523181c5d082e94d49766661be5685ad5ab653171b3a29a
+    icon: https://helm.elastic.co/icons/logstash.png
+    kubeVersion: '>= 1.21.0-0'
+    name: eck-logstash
+    sources:
+    - https://github.com/elastic/cloud-on-k8s
+    - https://github.com/elastic/logstash
+    type: application
+    urls:
+    - https://octodet.github.io/eck-stack-helm/eck-logstash-0.12.0.tgz
+    version: 0.12.0
+  eck-stack:
+  - apiVersion: v2
+    appVersion: 6.8.0
+    created: "2024-08-25T18:38:59.309167492Z"
+    dependencies:
+    - condition: eck-elasticsearch.enabled
+      name: eck-elasticsearch
+      repository: ""
+      version: 0.1.0
+    - condition: eck-kibana.enabled
+      name: eck-kibana
+      repository: ""
+      version: 0.1.0
+    - condition: eck-agent.enabled
+      name: eck-agent
+      repository: ""
+      version: 0.1.0
+    - condition: eck-fleet-server.enabled
+      name: eck-fleet-server
+      repository: ""
+      version: 0.1.0
+    - condition: eck-beats.enabled
+      name: eck-beats
+      repository: ""
+      version: 0.1.0
+    - condition: eck-logstash.enabled
+      name: eck-logstash
+      repository: ""
+      version: 0.1.0
+    - condition: eck-apm-server.enabled
+      name: eck-apm-server
+      repository: ""
+      version: 0.1.0
+    - condition: eck-enterprise-search.enabled
+      name: eck-enterprise-search
+      repository: ""
+      version: 0.1.0
+    description: Elastic Stack managed by the ECK Operator
+    digest: aa697bb6a86af93f9ac4f208d211820babb6480906d5036c2118f894f69f9a6d
+    kubeVersion: '>= 1.21.0-0'
+    name: eck-stack
+    type: application
+    urls:
+    - https://octodet.github.io/eck-stack-helm/eck-stack-0.1.0.tgz
+    version: 0.1.0
+generated: "2024-08-25T18:38:59.297337701Z"
