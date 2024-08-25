@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  my-chart:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-08-25T15:29:59.261961301Z"
+    description: A Helm chart for Kubernetes
+    digest: babbda5021a46f5a9a2806596db4066491f2c077d8232e8c82c2eee2176b1745
+    name: my-chart
+    type: application
+    urls:
+    - https://octodet.github.io/eck-stack-helm/my-chart-0.1.0.tgz
+    version: 0.1.0
+generated: "2024-08-25T15:29:59.261374348Z"
