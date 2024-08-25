@@ -59,7 +59,7 @@ spec:
 # - Nginx: https://kubernetes.github.io/ingress-nginx/
 #
 ingress:
-  enabled: false
+  enabled: true
 
   # Annotations that will be applied to the Ingress resource. Note that some ingress controllers are controlled via annotations.
   # 
@@ -98,7 +98,7 @@ ingress:
   # ref: https://kubernetes.io/docs/concepts/services-networking/ingress/#name-based-virtual-hosting
   #
   hosts:
-    - host: chart-example.local
+    - host: test.lab-env.octodet.local
       path: /
 
   # TLS defines whether TLS will be enabled on the Ingress resource.

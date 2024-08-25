@@ -18,7 +18,7 @@
 
 # Version of APM Server.
 #
-version: 8.15.0
+version: 6.8.0
 
 # APM Server Docker image to deploy
 #
