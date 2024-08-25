@@ -3,9 +3,9 @@ entries:
   eck-elasticsearch:
   - apiVersion: v2
     appVersion: 6.8.0
-    created: "2024-08-25T17:50:12.609204259Z"
+    created: "2024-08-25T17:54:31.205560416Z"
     description: Elasticsearch managed by the ECK operator
-    digest: bb9f754a3ac8a4eec54c68331a230eab1eabe8181cb59d90880851549408da1d
+    digest: 003b2e2047f7676805868af6cc8f26d39e2641aa46be6813649320202ce1ee33
     icon: https://helm.elastic.co/icons/elasticsearch.png
     kubeVersion: '>= 1.21.0-0'
     name: eck-elasticsearch
@@ -17,7 +17,7 @@ entries:
     version: 0.1.0
   - apiVersion: v2
     appVersion: 6.8.0
-    created: "2024-08-25T17:50:12.608577315Z"
+    created: "2024-08-25T17:54:31.204632996Z"
     description: Elasticsearch managed by the ECK operator
     digest: e7d00e5f7418e31a0043bb794632efc011b233ef987980699d016ce978204252
     icon: https://helm.elastic.co/icons/elasticsearch.png
@@ -32,7 +32,7 @@ entries:
   eck-elasticsearchs:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-08-25T17:50:12.609645305Z"
+    created: "2024-08-25T17:54:31.206268815Z"
     description: A Helm chart for Kubernetes
     digest: 5d036816cc6764eb3496fa5fc9bb64c105ef33c28f1aaa84860e8b50aa3ece7f
     name: eck-elasticsearchs
@@ -40,4 +40,4 @@ entries:
     urls:
     - https://octodet.github.io/eck-stack-helm/eck-elasticsearchs-0.1.0.tgz
     version: 0.1.0
-generated: "2024-08-25T17:50:12.607710412Z"
+generated: "2024-08-25T17:54:31.203512764Z"
