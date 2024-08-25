@@ -3,9 +3,9 @@ entries:
   eck-agent:
   - apiVersion: v2
     appVersion: 6.8.0
-    created: "2024-08-25T19:03:24.238268057Z"
+    created: "2024-08-25T20:21:56.516657401Z"
     description: Elastic Agent managed by the ECK operator
-    digest: 8b1c458e7c578a5b7a95c29b557a4d6e0f06fa96b8a88bd6a168a59e817a20e7
+    digest: 0666f90a3af37a25700bf94e5794d1ff287b5dc3956aad35230c1f2dc0fdfd00
     icon: https://images.contentstack.io/v3/assets/bltefdd0b53724fa2ce/blt77c2da6e0198746e/620ac24e6662ca0a6f617114/icon-agent-32-color.svg
     kubeVersion: '>= 1.21.0-0'
     name: eck-agent
@@ -16,9 +16,9 @@ entries:
   eck-apm-server:
   - apiVersion: v2
     appVersion: 6.8.0
-    created: "2024-08-25T19:03:24.238547297Z"
+    created: "2024-08-25T20:21:56.516995287Z"
     description: Elastic APM Server managed by the ECK operator
-    digest: 673787bf9b165c77750a2301d918659039888aebd0fbba284397cb86b9d3de4f
+    digest: 54ef0132bf6ded85fc741609b34e6676e60d9fa9685df6e20dd2f3a8b3318042
     icon: https://helm.elastic.co/icons/apm.png
     kubeVersion: '>= 1.21.0-0'
     name: eck-apm-server
@@ -29,9 +29,9 @@ entries:
   eck-beats:
   - apiVersion: v2
     appVersion: 6.8.0
-    created: "2024-08-25T19:03:24.238919433Z"
+    created: "2024-08-25T20:21:56.517377619Z"
     description: Elastic Beats managed by the ECK operator
-    digest: 2853371133fc1a2599f2e415d6cd8fdaa8274e7bd217f9579f0823965fefa350
+    digest: 1bc5e2f5e1a27cf98200cdbac987baff0898039691eff239fab73f6505aea7c2
     icon: https://helm.elastic.co/icons/beats.png
     kubeVersion: '>= 1.20.0-0'
     name: eck-beats
@@ -42,9 +42,9 @@ entries:
   eck-elasticsearch:
   - apiVersion: v2
     appVersion: 6.8.0
-    created: "2024-08-25T19:03:24.239590535Z"
+    created: "2024-08-25T20:21:56.518005527Z"
     description: Elasticsearch managed by the ECK operator
-    digest: e739ef771309fbdd01fbcc74905ffda97543db6b44ed57cf6e98be1615d96c7c
+    digest: 7647756e63a950e3d31401089d26144e32ad96f654c90589383b121fa10afedb
     icon: https://helm.elastic.co/icons/elasticsearch.png
     kubeVersion: '>= 1.21.0-0'
     name: eck-elasticsearch
@@ -55,9 +55,9 @@ entries:
   eck-enterprise-search:
   - apiVersion: v2
     appVersion: 6.8.0
-    created: "2024-08-25T19:03:24.239852742Z"
+    created: "2024-08-25T20:21:56.51851226Z"
     description: Elastic Enterprise Search managed by the ECK operator
-    digest: 33d0cc937427520b79bd0710bd694a123e336e1e3222c0a15a5b7cc7d72c7536
+    digest: 3f94d9547b747c749d1102c9f2d0c62a3b87414d65d77bba25f0bbaa69313c6f
     icon: https://github.com/elastic/ent-search/blob/main/public/app-search-favicon-196x196.png
     kubeVersion: '>= 1.21.0-0'
     name: eck-enterprise-search
@@ -68,9 +68,9 @@ entries:
   eck-fleet-server:
   - apiVersion: v2
     appVersion: 6.8.0
-    created: "2024-08-25T19:03:24.240243904Z"
+    created: "2024-08-25T20:21:56.519289698Z"
     description: Elastic Fleet Server as an Agent managed by the ECK operator
-    digest: 473afad2bc37e2bda85c44607a7a288ea8b06f0cc1bcbf69f4441e2ad6ca2751
+    digest: a2120b8cf648505a75df3fd946c919518b7a36d04be3c0ae7be9901ef6df5ebb
     icon: https://helm.elastic.co/icons/apm.png
     kubeVersion: '>= 1.21.0-0'
     name: eck-fleet-server
@@ -81,9 +81,9 @@ entries:
   eck-kibana:
   - apiVersion: v2
     appVersion: 6.8.0
-    created: "2024-08-25T19:03:24.240594489Z"
+    created: "2024-08-25T20:21:56.519679484Z"
     description: Kibana managed by the ECK operator
-    digest: 2ba6ec13f62e220c7d5ed21c9895c4260f0e4eb2e93f216cf3089c6aee87f0f7
+    digest: 47c67680964fc973d5785e965979c7edf4c80648d93f1e9ae5776eabefbe126d
     icon: https://helm.elastic.co/icons/kibana.png
     kubeVersion: '>= 1.21.0-0'
     name: eck-kibana
@@ -94,9 +94,9 @@ entries:
   eck-logstash:
   - apiVersion: v2
     appVersion: 6.8.0
-    created: "2024-08-25T19:03:24.240909045Z"
+    created: "2024-08-25T20:21:56.519992211Z"
     description: Logstash managed by the ECK operator
-    digest: 10f8db915ddf9b6f7e5c9c165ef83b464dc7f5ff6d5a228b8861ce6f7a70b4a7
+    digest: bc02e1addf9a2189296a2d4cdf29328b37652a20cbe6aa050bbcfb99d3d4c854
     icon: https://helm.elastic.co/icons/logstash.png
     kubeVersion: '>= 1.21.0-0'
     name: eck-logstash
@@ -106,8 +106,8 @@ entries:
     version: 0.1.0
   eck-stack:
   - apiVersion: v2
-    appVersion: 6.8.0
-    created: "2024-08-25T19:03:24.249515847Z"
+    appVersion: 8.15.0
+    created: "2024-08-25T20:21:56.52275978Z"
     dependencies:
     - condition: eck-elasticsearch.enabled
       name: eck-elasticsearch
@@ -142,7 +142,7 @@ entries:
       repository: ""
       version: 0.1.0
     description: Elastic Stack managed by the ECK Operator
-    digest: a603bb6e226a3937a2c4b60ee467d0b7831719c2621943e2240f80b904e70877
+    digest: d0f7a5dcd6d05d8f13f2903a168c32bf38d5517b950910f83cd0b85d15c4e160
     icon: https://helm.elastic.co/icons/eck.png
     kubeVersion: '>= 1.21.0-0'
     name: eck-stack
@@ -150,4 +150,4 @@ entries:
     urls:
     - https://octodet.github.io/eck-stack-helm/eck-stack-0.1.0.tgz
     version: 0.1.0
-generated: "2024-08-25T19:03:24.237634736Z"
+generated: "2024-08-25T20:21:56.515971721Z"
