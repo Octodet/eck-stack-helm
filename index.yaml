@@ -1,0 +1,47 @@
+apiVersion: v1
+entries:
+  eck-stack:
+  - apiVersion: v2
+    created: "2024-08-25T15:19:20.362378695Z"
+    dependencies:
+    - condition: eck-elasticsearch.enabled
+      name: eck-elasticsearch
+      repository: ""
+      version: 0.13.0-SNAPSHOT
+    - condition: eck-kibana.enabled
+      name: eck-kibana
+      repository: ""
+      version: 0.13.0-SNAPSHOT
+    - condition: eck-agent.enabled
+      name: eck-agent
+      repository: ""
+      version: 0.13.0-SNAPSHOT
+    - condition: eck-fleet-server.enabled
+      name: eck-fleet-server
+      repository: ""
+      version: 0.13.0-SNAPSHOT
+    - condition: eck-beats.enabled
+      name: eck-beats
+      repository: ""
+      version: 0.13.0-SNAPSHOT
+    - condition: eck-logstash.enabled
+      name: eck-logstash
+      repository: ""
+      version: 0.13.0-SNAPSHOT
+    - condition: eck-apm-server.enabled
+      name: eck-apm-server
+      repository: ""
+      version: 0.13.0-SNAPSHOT
+    - condition: eck-enterprise-search.enabled
+      name: eck-enterprise-search
+      repository: ""
+      version: 0.13.0-SNAPSHOT
+    description: Elastic Stack managed by the ECK Operator
+    digest: 8fe0338a8bbf5dadde18a8407c0594d8e3ccb048078711a0a7c3efa0da10caf3
+    kubeVersion: '>= 1.21.0-0'
+    name: eck-stack
+    type: application
+    urls:
+    - https://octodet.github.io/eck-stack-helm/eck-stack-0.13.0-SNAPSHOT.tgz
+    version: 0.13.0-SNAPSHOT
+generated: "2024-08-25T15:19:20.358295291Z"
